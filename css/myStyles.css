@@ -1,0 +1,117 @@
+div {
+				position: relative;
+				margin-bottom: 5px;
+				text-align: center;
+				font-weight: 300;
+				line-height: 40px;
+			}
+
+			div:before, div:after {
+				content: "";
+				height: 100%;
+			}
+
+			div.oddRow {
+				width: 100%;
+				box-sizing: border-box;
+				background-origin: content-box;
+				background-repeat: no-repeat;
+				background-image: linear-gradient(rgb(165, 159, 158), rgb(207, 193, 192));
+				background-color: rgba(225, 222, 222, 0.5);
+				color: #F8F5F6;
+				font-size: 20px;
+				font-weight: bold;
+			}
+
+			div.evenRow {
+				width: 100%;
+				box-sizing: border-box;
+				background-origin: content-box;
+				background-repeat: no-repeat;
+				background-image: linear-gradient(rgb(218, 195, 192), rgb(219, 193, 192));
+				background-color: rgba(181, 168, 164, 0.5);
+				color: #070103;
+				font-size: 20px;
+				font-weight: bold;
+			}
+			div.startRow {
+				width: 100%;
+				box-sizing: border-box;
+				background-origin: content-box;
+				background-repeat: no-repeat;
+				background-color: rgba(181, 168, 164, 0.5);
+				color: #070103;
+				font-size: 20px;
+				font-weight: bold;
+			}
+
+			.paddingContentType1 {
+				padding: 0 calc(100% - 10%) 0 0;
+			}
+
+			.paddingContentType2 {
+				padding: 0 calc(100% - 20%) 0 0;
+			}
+
+			.paddingContentType3 {
+				padding: 0 calc(100% - 30%) 0 0;
+			}
+
+			.paddingContentType4 {
+				padding: 0 calc(100% - 40%) 0 0;
+			}
+
+			.paddingContentType5 {
+				padding: 0 calc(100% - 50%) 0 0;
+			}
+
+			.paddingContentType6 {
+				padding: 0 calc(100% - 60%) 0 0;
+			}
+
+			.paddingContentType7 {
+				padding: 0 calc(100% - 70%) 0 0;
+			}
+
+			.paddingContentType8 {
+				padding: 0 calc(100% - 80%) 0 0;
+			}
+
+			.paddingContentType9 {
+				padding: 0 calc(100% - 90%) 0 0;
+			}
+
+			.paddingContentType10 {
+				padding: 0 calc(100% - 95%) 0 0;
+			}
+			.evenRating {
+				position: relative;
+				width: 40px;
+				height: 40px;
+				border-radius: 20px;
+				left: 0px;
+				top: 0px;
+				top: -45px;
+				float: right;
+				background: rgba(245, 241, 240, 0.5);
+				color: black;
+				font-weight: bold;
+			}
+			.oddRating {
+				position: relative;
+				width: 40px;
+				height: 40px;
+				border-radius: 20px;
+				left: 0px;
+				top: 0px;
+				top: -45px;
+				float: right;
+				background: rgba(140, 127, 127, 0.5);
+				color: white;
+				font-weight: bold;
+			}
+			.expand {
+				height: 1em;
+				width: 20%;
+				padding: 3px;
+			}
